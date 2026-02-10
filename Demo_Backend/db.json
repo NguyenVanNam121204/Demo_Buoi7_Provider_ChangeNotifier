@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "name": "Nguyễn Văn A",
+      "email": "user1@test.com",
+      "password": "123456",
+      "avatar": "http://localhost:3000/images/avata1.png"
+    },
+    {
+      "id": "user_2",
+      "name": "Trần Thị B",
+      "email": "user2@test.com",
+      "password": "123456",
+      "avatar": "http://localhost:3000/images/avata2.png"
+    },
+    {
+      "id": "user_3",
+      "name": "Lê Văn C",
+      "email": "user3@test.com",
+      "password": "123456",
+      "avatar": "http://localhost:3000/images/avata3.png"
+    }
+  ],
+  "carts": [
+    {
+      "id": "cart_1",
+      "userId": "user_1",
+      "productId": "p001",
+      "productName": "iPhone 15 Pro Max",
+      "price": 29990000,
+      "quantity": 1,
+      "imageUrl": "http://localhost:3000/images/iphone-15-pro-max.png"
+    },
+    {
+      "id": "cart_2",
+      "userId": "user_1",
+      "productId": "p003",
+      "productName": "MacBook Pro M3",
+      "price": 49990000,
+      "quantity": 1,
+      "imageUrl": "http://localhost:3000/images/Macbook-pro.png"
+    },
+    {
+      "id": "cart_3",
+      "userId": "user_2",
+      "productId": "p004",
+      "productName": "iPad Pro M2",
+      "price": 28990000,
+      "quantity": 1,
+      "imageUrl": "http://localhost:3000/images/ipad-pro-m2.png"
+    },
+    {
+      "id": "cart_4",
+      "userId": "user_2",
+      "productId": "p006",
+      "productName": "Apple Watch Ultra 2",
+      "price": 21990000,
+      "quantity": 2,
+      "imageUrl": "http://localhost:3000/images/apple-watch.png"
+    },
+    {
+      "userId": "user_3",
+      "productId": "p002",
+      "productName": "Samsung Galaxy S24 Ultra",
+      "price": 31990000,
+      "quantity": 3,
+      "imageUrl": "http://localhost:3000/images/samsung-galaxy-s24-ultra.png",
+      "id": "w_TAJ9V"
+    },
+    {
+      "userId": "user_3",
+      "productId": "p001",
+      "productName": "iPhone 15 Pro Max",
+      "price": 29990000,
+      "quantity": 1,
+      "imageUrl": "http://localhost:3000/images/iphone-15-pro-max.png",
+      "id": "WF4PK2j"
+    },
+    {
+      "userId": "user_3",
+      "productId": "p003",
+      "productName": "MacBook Pro M3",
+      "price": 49990000,
+      "quantity": 1,
+      "imageUrl": "http://localhost:3000/images/Macbook-pro.png",
+      "id": "FT-s-mN"
+    }
+  ],
+  "products": [
+    {
+      "id": "p001",
+      "name": "iPhone 15 Pro Max",
+      "price": 29990000,
+      "category": "Điện thoại",
+      "imageUrl": "http://localhost:3000/images/iphone-15-pro-max.png",
+      "description": "Điện thoại Apple iPhone 15 Pro Max 256GB"
+    },
+    {
+      "id": "p002",
+      "name": "Samsung Galaxy S24 Ultra",
+      "price": 31990000,
+      "category": "Điện thoại",
+      "imageUrl": "http://localhost:3000/images/samsung-galaxy-s24-ultra.png",
+      "description": "Điện thoại Samsung Galaxy S24 Ultra 512GB"
+    },
+    {
+      "id": "p003",
+      "name": "MacBook Pro M3",
+      "price": 49990000,
+      "category": "Laptop",
+      "imageUrl": "http://localhost:3000/images/Macbook-pro.png",
+      "description": "Laptop Apple MacBook Pro 14 inch M3 Pro"
+    },
+    {
+      "id": "p004",
+      "name": "iPad Pro M2",
+      "price": 28990000,
+      "category": "Tablet",
+      "imageUrl": "http://localhost:3000/images/ipad-pro-m2.png",
+      "description": "Máy tính bảng Apple iPad Pro 12.9 inch M2"
+    },
+    {
+      "id": "p005",
+      "name": "AirPods Pro 2",
+      "price": 5990000,
+      "category": "Phụ kiện",
+      "imageUrl": "http://localhost:3000/images/airpods-pro-2.png",
+      "description": "Tai nghe Apple AirPods Pro thế hệ 2"
+    },
+    {
+      "id": "p006",
+      "name": "Apple Watch Ultra 2",
+      "price": 21990000,
+      "category": "Đồng hồ",
+      "imageUrl": "http://localhost:3000/images/apple-watch.png",
+      "description": "Đồng hồ thông minh Apple Watch Ultra 2"
+    },
+    {
+      "id": "p007",
+      "name": "Sony WH-1000XM5",
+      "price": 7990000,
+      "category": "Phụ kiện",
+      "imageUrl": "http://localhost:3000/images/Tai-nghe-chong-on.png",
+      "description": "Tai nghe chống ồn Sony WH-1000XM5"
+    },
+    {
+      "id": "p008",
+      "name": "Dell XPS 15",
+      "price": 42990000,
+      "category": "Laptop",
+      "imageUrl": "http://localhost:3000/images/Laptop-Dell-XPS.png",
+      "description": "Laptop Dell XPS 15 Core i7 Gen 13"
+    }
+  ]
+}

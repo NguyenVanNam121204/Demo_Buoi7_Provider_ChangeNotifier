@@ -1,0 +1,66 @@
+# Flutter/Dart
+Demo_Shopping_Cart/.dart_tool/
+Demo_Shopping_Cart/.packages
+Demo_Shopping_Cart/build/
+Demo_Shopping_Cart/.flutter-plugins
+Demo_Shopping_Cart/.flutter-plugins-dependencies
+Demo_Shopping_Cart/.pub-cache/
+Demo_Shopping_Cart/.pub/
+Demo_Shopping_Cart/pubspec.lock
+
+# Android
+Demo_Shopping_Cart/android/.gradle/
+Demo_Shopping_Cart/android/app/debug/
+Demo_Shopping_Cart/android/app/profile/
+Demo_Shopping_Cart/android/app/release/
+Demo_Shopping_Cart/android/local.properties
+*.apk
+*.aab
+
+# iOS/macOS
+Demo_Shopping_Cart/ios/Flutter/Flutter.framework
+Demo_Shopping_Cart/ios/Flutter/Flutter.podspec
+Demo_Shopping_Cart/ios/Pods/
+Demo_Shopping_Cart/ios/.symlinks/
+Demo_Shopping_Cart/macos/Pods/
+Demo_Shopping_Cart/macos/.symlinks/
+*.xcworkspace
+
+# Windows
+Demo_Shopping_Cart/windows/flutter/ephemeral/
+
+# Linux
+Demo_Shopping_Cart/linux/flutter/ephemeral/
+
+# Web
+Demo_Shopping_Cart/web/.dart_tool/
+
+# Node.js / Backend
+Demo_Backend/node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Miscellaneous
+*.log
+*.tmp
+*.temp
+.env
+.env.local
