@@ -11,36 +11,6 @@ server.use(jsonServer.bodyParser);
 // CUSTOM ROUTES - Authentication API
 // ============================================
 
-// POST /auth/login - Đăng nhập
-// Body: { "email": "user1@test.com", "password": "123456" }
-// Response: { "success": true, "user": {...} } hoặc { "success": false, "message": "..." }
-server.post('/auth/login', (req, res) => {
-  const { email, password } = req.body;
-  
-  // Lấy database
-  const db = router.db;
-  const users = db.get('users').value();
-  
-  // Tìm user theo email và password
-  const user = users.find(u => u.email === email && u.password === password);
-  
-  if (user) {
-    // Đăng nhập thành công - trả về user (không trả password)
-    const { password: _, ...userWithoutPassword } = user;
-    res.json({
-      success: true,
-      message: 'Đăng nhập thành công',
-      user: userWithoutPassword
-    });
-  } else {
-    // Đăng nhập thất bại
-    res.status(401).json({
-      success: false,
-      message: 'Email hoặc mật khẩu không đúng'
-    });
-  }
-});
-
 // GET /auth/users - Lấy danh sách users (để chọn login nhanh khi demo)
 server.get('/auth/users', (req, res) => {
   const db = router.db;
